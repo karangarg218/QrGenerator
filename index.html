@@ -31,7 +31,7 @@
             const name = document.getElementById('textInput').value;
             const age = document.getElementById('age').value;
             const gender = document.getElementById('gender').value;
-            const response = await fetch('https://qrapi-q1dvrme8a-karans-projects-9eb6bc18.vercel.app/generate', {
+            const response = await fetch('https://qrapi-q1dvrme8a-karans-projects-9eb6bc18.vercel.app/generate/', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ name, age, gender }),
